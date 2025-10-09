@@ -3,21 +3,118 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Hélio Pimentel</title>
-    <link rel="icon" href="hp.ico" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+    <title>doc.ia.br</title>
+    <link rel="icon" href="https://heliopimentel.github.io/hp.ico" />
+    <link rel="stylesheet" href="https://heliopimentel.github.io/bootstrap.min.css" />
     <style>
-        body { padding: 50px }
-        a { text-decoration: none }
+
+        body { overflow-x: hidden; overflow-y: scroll; }
+        a { text-decoration: none; font-weight: bold; }
+        span { color: #00B000; font-weight: bold; }
+        img { max-width: 90%; }
+        ul { list-style: none; padding-left: 0px; }
+        ul li::before { content: "\25B9\0020"; }
+
+        .sim { color: #00B000; }
+        .sim::before { content: "\2713\0020"; }
+        .nao { color: red; }
+        .nao::before { content: "\2717\0020"; color: red; }
+
+        .s1 { background-color: royalblue; color: white; text-align: center; padding-top: 15px; padding-bottom: 30px; font-size: 18px; }
+        .s1 b { font-size: 70px; }
+        .s2, .s3 { display: flex; flex-wrap: wrap; justify-content: center; margin: auto; }
+        .s2 div, .s3 div { width: 600px; max-width: 100%; box-sizing: border-box; padding: 30px; }
+        .s3 { background-color: #F8F8F8; }
+
     </style>
 </head>
 <body>
 
-    <big>
-        Este domínio está à venda.<br />
-        Se tiver interesse, entre em contato.<br /><br />
-        <a href="https://heliopimentel.github.io">heliopimentel.github.io</a><br />
-    </big>
+    <section class="s1">
+        <b>DOC.IA.BR</b><br />
+        Menos custos. Mais agilidade.<br />
+    </section>
+
+    <section class="s2">
+        <div>
+            <b>O que fazemos</b><br />
+            <ul>
+                <li>Robôs</li>
+                <li>Processamento com OCR, código de barras, QR code</li>
+                <li>Processamento com <span>inteligência artificial</span></li>
+            </ul>
+        </div>
+        <div>
+            <b>Contato</b><br />
+            <ul>
+                <li><a target="_blank" href="https://heliopimentel.github.io">heliopimentel.github.io</a></li>
+                <li>pelo WhatsApp: <a target="_blank" href="https://wa.me/5511967223580">(11) 96722-3580</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="s3">
+        <div>
+            <b>Problema</b><br />
+            <ul>
+                <li>Classificação de documentos</li>
+                <li>Extração de dados</li>
+                <li>Conversão de formatos</li>
+                <li>Indexação</li>
+            </ul>
+            <b>Solução</b><br />
+            <ul>
+                <li class="nao">Fazer tudo manualmente, com alto custo de mão de obra</li>
+                <li class="nao">Desenvolver um sistema específico, com prazo incerto e investimento significativo</li>
+                <li class="sim">Deixar que a <b>doc.ia.br</b> realize o processamento, com custo mínimo e pagamento pelo resultado produzido</li>
+            </ul>
+        </div>
+        <div>
+            <b>Problema</b><br />
+            <ul>
+                <li>Consultar um site</li>
+                <li>Gerar um PDF</li>
+                <li>Interpretar o PDF</li>
+            </ul>
+            <b>Solução</b><br />
+            <ul>
+                <li class="nao">Fazer tudo manualmente, com alto custo de mão de obra</li>
+                <li class="nao">Desenvolver um robô, com prazo incerto, investimento significativo e manutenção sempre que o site mudar qualquer detalhe</li>
+                <li class="sim">Deixar que a <b>doc.ia.br</b> realize o processamento, com custo mínimo e pagamento pelo resultado produzido</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div>
+            <b>Problema real de uma rede de lojas com cartão de crédito próprio</b><br />
+            <ul>
+                <li>Consultar a situação cadastral de 10.000 CPFs de clientes inadimplentes</li>
+            </ul>
+            <b>Solução DOC.IA.BR</b><br />
+            <ul>
+                <li class="sim">Relatório da situação cadastral nos formatos CSV e PDF</li>
+                <li class="sim">Relatório obtido a partir dos 10.000 PDFs gerados no site da Receita Federal</li>
+            </ul>
+        </div>
+        <div>
+            <b>Problema real de uma empresa com milhares de fornecedores</b><br />
+            <ul>
+                <li>
+                    Verificar se algum fornecedor foi citado negativamente em notícias relacionadas a trabalho escravo,
+                    trabalho infantil, corrupção, fraude, racismo, assédio moral, assédio sexual, poluição, desmatamento
+                    ou qualquer outro problema relacionado a ESG
+                </li>
+            </ul>
+            <b>Solução DOC.IA.BR</b><br />
+            <ul>
+                <li class="sim">Relatório com a classificação, o link e o resumo de cada notícia negativa</li>
+            </ul>
+
+            Clique na imagem para ver os dados relativos a um conjunto aleatório de empresas.<br /><br />
+            <a href="midianegativa.html" target="_blank"><img src="midianegativa.png" /></a><br /><br>
+        </div>
+    </section>
 
 </body>
 </html>
